@@ -178,7 +178,7 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
-#port=$COIN_PORT
+port=$COIN_PORT
 EOF
 }
 
@@ -194,7 +194,7 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
-#port=$COIN_PORT
+port=$COIN_PORT
 EOF
 }
 
@@ -210,7 +210,7 @@ rpcallowip=127.0.0.1
 listen=1
 server=1
 daemon=1
-#port=$COIN_PORT
+port=$COIN_PORT
 EOF
 }
 
@@ -289,6 +289,14 @@ bind=$IP
 masternode=1
 externalip=$IP:$COIN_PORT
 masternodeprivkey=$COINKEY
+addnode=139.99.98.145:18888
+addnode=51.255.174.238:18888
+addnode=54.37.14.240:18888
+addnode=164.132.195.79:18888
+addnode=208.167.248.187:18888
+addnode=45.77.146.105:18888
+addnode=45.77.221.206:18888
+addnode=45.76.171.105:18888
 EOF
 }
 
@@ -301,6 +309,14 @@ bind=$IP2
 masternode=1
 externalip=$IP2:$COIN_PORT
 masternodeprivkey=$COINKEY2
+addnode=139.99.98.145:18888
+addnode=51.255.174.238:18888
+addnode=54.37.14.240:18888
+addnode=164.132.195.79:18888
+addnode=208.167.248.187:18888
+addnode=45.77.146.105:18888
+addnode=45.77.221.206:18888
+addnode=45.76.171.105:18888
 EOF
 }
 
@@ -313,6 +329,14 @@ bind=$IP3
 masternode=1
 externalip=$IP3:$COIN_PORT
 masternodeprivkey=$COINKEY3
+addnode=139.99.98.145:18888
+addnode=51.255.174.238:18888
+addnode=54.37.14.240:18888
+addnode=164.132.195.79:18888
+addnode=208.167.248.187:18888
+addnode=45.77.146.105:18888
+addnode=45.77.221.206:18888
+addnode=45.76.171.105:18888
 EOF
 }
 
